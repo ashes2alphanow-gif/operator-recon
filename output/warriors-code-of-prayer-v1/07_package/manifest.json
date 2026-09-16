@@ -1,0 +1,149 @@
+{
+  "slug": "warriors-code-of-prayer-v1",
+  "title": "A Warrior's Code of Prayer: Forty Days of Prayer for Men Who Work While Others Sleep",
+  "author": "Chris G. Stewart",
+  "imprint": "Ashes to Alpha",
+  "built_utc": "2026-09-16T12:40:08+00:00",
+  "spec_fingerprint": "42e349739286b879",
+  "rate_table": "2026-09",
+  "page_count": 96,
+  "spine_in": 0.3,
+  "wrap_in": [
+    11.55,
+    8.75
+  ],
+  "gate_results": {
+    "compliance": "PASS",
+    "cover_spec": "PASS",
+    "interior_spec": "PASS",
+    "listing": "PASS",
+    "structure": "PASS",
+    "substance": "PASS"
+  },
+  "gate_counts": {
+    "compliance": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 25
+    },
+    "cover_spec": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 1
+    },
+    "interior_spec": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 1
+    },
+    "listing": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0
+    },
+    "structure": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0
+    },
+    "substance": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 5
+    }
+  },
+  "artifacts": {
+    "00_intake/spec.resolved.json": {
+      "bytes": 12908,
+      "sha256": "b8375e5e753a08366e385682000c06a7ff9a387d94e3f5ffd0a31cc14364cd3d"
+    },
+    "00_intake/intake.md": {
+      "bytes": 1372,
+      "sha256": "e0727f024931d1eca2a3146ee1c5e1351dec3330d9ca2999a6647a6487cc31b6"
+    },
+    "01_blueprint/blueprint.json": {
+      "bytes": 10065,
+      "sha256": "455380f981dbe5e72531f8f7f7e0df4291532191b1bcb344130faa32a79ab911"
+    },
+    "01_blueprint/outline.md": {
+      "bytes": 5712,
+      "sha256": "7c10be060a86010ad0b1762e56c14d3a4190a500b40ebd682e954c25244a2cb9"
+    },
+    "gates/structure.json": {
+      "bytes": 227,
+      "sha256": "4eda1b648ad9eb0ba47e36e79ab5d80d3f770cd53cae4caa93558f8a4b3dfc06"
+    },
+    "02_manuscript/blocks.json": {
+      "bytes": 132678,
+      "sha256": "7fd8f2ee816b3cb6a64c6d683d644544880e32141d81f0c8db5427d7d7df576d"
+    },
+    "02_manuscript/manuscript.md": {
+      "bytes": 88260,
+      "sha256": "901d8af9afc45dde9050bef749396d34e8329ead98f02f9f5fb201181cfa6999"
+    },
+    "gates/substance.json": {
+      "bytes": 1263,
+      "sha256": "99ec5a3febfb348e957d68b26623bbc0a0f64909218233d862d63a113a9de22f"
+    },
+    "03_interior/warriors-code-of-prayer-v1_interior_5.5x8.5.pdf": {
+      "bytes": 207773,
+      "sha256": "617d36d2a268b6d6644c38080ea1f947eac190165dedc98508ec1ed9b47ca213"
+    },
+    "03_interior/interior.json": {
+      "bytes": 1559,
+      "sha256": "77b649f5f233dfb47368ee0bb7f48124059322480b1aeb6e90478f8fbeb23689"
+    },
+    "gates/interior_spec.json": {
+      "bytes": 1044,
+      "sha256": "57cf8b8fb437dd6c45aa4150fabbb9c1eb13cf83d5f2260565dbfc5ab5b74cd4"
+    },
+    "04_cover/warriors-code-of-prayer-v1_cover_wrap_11.5500x8.7500in.pdf": {
+      "bytes": 83298,
+      "sha256": "818a450905cb15075d95a155ccf3c5abe6ad02a23593e128ee1c54d44f2bc346"
+    },
+    "04_cover/warriors-code-of-prayer-v1_cover_PROOF.pdf": {
+      "bytes": 83562,
+      "sha256": "60f3f942c3ad54bfe237d0baa036faca9ccb6f6a3a7106e82075d439ae2b5363"
+    },
+    "04_cover/cover_geometry.json": {
+      "bytes": 668,
+      "sha256": "2f4c411621b1d65ecf1954481581da8b8dfa4304eb91897bccbde1ee5f468ea2"
+    },
+    "04_cover/cover_art_brief.md": {
+      "bytes": 895,
+      "sha256": "cca10fa48f09529f59cd18c5b550ccde6235969251acfd6cd8bf7a7466ae8d05"
+    },
+    "gates/cover_spec.json": {
+      "bytes": 765,
+      "sha256": "d87072db558bebb8e564351f16282d2d29a5745e5a57b7fec0ddbbb40c23f915"
+    },
+    "05_listing/listing.json": {
+      "bytes": 3697,
+      "sha256": "69479a3280585920679b85479d23d99688f13bb0974d3b4571f049dd93270be1"
+    },
+    "05_listing/listing.md": {
+      "bytes": 3073,
+      "sha256": "7ebc73cdb06770f090189dcc23bdce6e38ef0d2b7eee58983148ef63818c9446"
+    },
+    "gates/listing.json": {
+      "bytes": 294,
+      "sha256": "76826778d34a03f8f95bc2722733fff681b9be597fa04ada1b8c8be51ed69672"
+    },
+    "06_compliance/ledgers.json": {
+      "bytes": 35790,
+      "sha256": "6bee773e2ff85b6e2e895ee3d0321279dee9e0e20b4c06808362e2255353beff"
+    },
+    "06_compliance/decision_ledger.json": {
+      "bytes": 490,
+      "sha256": "3ac107c41e14b257411fed3e8d05208a494d6a617dedd957e79a232aca14d7f8"
+    },
+    "06_compliance/kdp_disclosure.md": {
+      "bytes": 623,
+      "sha256": "016ccf989f14f404135bb3273d96ab92bcd80c99c8f8b610a9356e2253db9eaa"
+    },
+    "gates/compliance.json": {
+      "bytes": 9022,
+      "sha256": "93893b10eb7fee4459ed6a078328dcf4fdf6ba54d2b50aabf919c0f5b473eaa7"
+    }
+  }
+}

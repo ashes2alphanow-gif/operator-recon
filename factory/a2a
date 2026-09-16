@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A2A Publishing Factory entrypoint. Run from anywhere.
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHONPATH="$here:$PYTHONPATH" exec python3 -m a2a_factory.cli "$@"

@@ -1,0 +1,784 @@
+{
+  "slug": "fixture-padded",
+  "lane": "devotional",
+  "unit_type": "entry",
+  "total_words": 2558,
+  "units": [
+    {
+      "number": 1,
+      "title": "The Journey Begins",
+      "thesis": "Starting something you have never done before and surviving the first week of it.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/001-the-journey-begins.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 1,
+          "title": "The Journey Begins"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "A Season of Waiting",
+      "thesis": "What a man does with a stretch of time where nothing is moving.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/002-a-season-of-waiting.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 2,
+          "title": "A Season of Waiting"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Quiet Voice",
+      "thesis": "Learning to notice a signal that is quieter than everything around it.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/003-the-quiet-voice.md",
+      "words": 157,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 3,
+          "title": "The Quiet Voice"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Letting Go",
+      "thesis": "Releasing a grudge that has cost more to hold than to drop.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/004-letting-go.md",
+      "words": 122,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 4,
+          "title": "Letting Go"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "[INSERT PERSONAL STORY HERE]"
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Path Ahead",
+      "thesis": "Choosing a direction when the map runs out at the edge of the paper.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/005-the-path-ahead.md",
+      "words": 108,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 5,
+          "title": "The Path Ahead"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Trusting the Process",
+      "thesis": "Staying in a slow process when you would rather force the result.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/006-trusting-the-process.md",
+      "words": 157,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 6,
+          "title": "Trusting the Process"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "A New Perspective",
+      "thesis": "Looking at an old problem from a position you have never stood in.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/007-a-new-perspective.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 7,
+          "title": "A New Perspective"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "The Inner Work",
+      "thesis": "The work you do on yourself that nobody else can see or verify.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/008-the-inner-work.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 8,
+          "title": "The Inner Work"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Moments of Stillness",
+      "thesis": "Building a pause into a day that has no room in it.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/009-moments-of-stillness.md",
+      "words": 157,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 9,
+          "title": "Moments of Stillness"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Finding Your Center",
+      "thesis": "Locating the thing you orient on when everything else moves.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/010-finding-your-center.md",
+      "words": 108,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 10,
+          "title": "Finding Your Center"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "The Deeper Call",
+      "thesis": "Hearing a request that asks for more than you planned to give.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/011-the-deeper-call.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 11,
+          "title": "The Deeper Call"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Learning to Receive",
+      "thesis": "Accepting help, money, or praise without deflecting it.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/012-learning-to-receive.md",
+      "words": 157,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 12,
+          "title": "Learning to Receive"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "A Posture of Openness",
+      "thesis": "Staying open to a person you have already decided about.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/013-a-posture-of-openness.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 13,
+          "title": "A Posture of Openness"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "The Gift of Presence",
+      "thesis": "Giving somebody your attention instead of your advice.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/014-the-gift-of-presence.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 14,
+          "title": "The Gift of Presence"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Walking in Light",
+      "thesis": "Moving through a place you cannot see the end of.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/015-walking-in-light.md",
+      "words": 147,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 15,
+          "title": "Walking in Light"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "The Space Between",
+      "thesis": "What happens in the gap between a decision and its result.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/016-the-space-between.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 16,
+          "title": "The Space Between"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Choosing Gratitude",
+      "thesis": "Naming what is working on a day when little is.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/017-choosing-gratitude.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 17,
+          "title": "Choosing Gratitude"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "The Long Obedience",
+      "thesis": "Doing one unremarkable thing for a very long time.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/018-the-long-obedience.md",
+      "words": 157,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 18,
+          "title": "The Long Obedience"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "p",
+          "text": "Surrender is not weakness. Surrender is the beginning of strength, because it releases the weight we were never meant to carry alone, and it opens us to a peace that does not depend on our circumstances or our performance."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Becoming Who You Are",
+      "thesis": "Growing into the person you already tell other people you are.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/019-becoming-who-you-are.md",
+      "words": 118,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 19,
+          "title": "Becoming Who You Are"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "subhead",
+          "text": "THE DRILL"
+        },
+        {
+          "t": "p",
+          "text": "Take a moment to reflect on this today."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "The Final Invitation",
+      "thesis": "Accepting an offer that will change how the rest of it goes.",
+      "source_file": "/home/user/operator-recon/factory/manuscripts/_fixture-padded/020-the-final-invitation.md",
+      "words": 108,
+      "blocks": [
+        {
+          "t": "unit_open",
+          "number": 20,
+          "title": "The Final Invitation"
+        },
+        {
+          "t": "anchor",
+          "text": "Be still and know.",
+          "cite": "Psalm 46:10"
+        },
+        {
+          "t": "p",
+          "text": "Faith is a posture of the heart rather than a set of actions. When we learn to release control, we begin to experience a deeper sense of peace that is not dependent on circumstances. This is the invitation that is offered to each of us."
+        },
+        {
+          "t": "p",
+          "text": "In today's world it is important to remember that our journey is a personal one. When it comes to growth, the truth is that we all have a path. At the end of the day, what matters is that we continue to move forward with intention and purpose in all that we do."
+        },
+        {
+          "t": "prayer",
+          "text": "God, meet me here today. Amen."
+        }
+      ]
+    }
+  ]
+}

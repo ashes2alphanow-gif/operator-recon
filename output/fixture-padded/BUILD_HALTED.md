@@ -1,0 +1,263 @@
+# BUILD HALTED at the substance gate
+
+**A Season of Stillness: Twenty Reflections for the Journey** did not get past `substance`. Nothing downstream was built.
+
+## Blockers (P0)
+
+### thin-unit
+entry 1 'The Journey Begins' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 1 'The Journey Begins' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 2 'A Season of Waiting' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 2 'A Season of Waiting' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 3 'The Quiet Voice' runs 153 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 3 'The Quiet Voice' scores 0.76 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 4 'Letting Go' runs 118 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 4 'Letting Go' scores 1.03 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### placeholder
+entry 4 'Letting Go' still contains a placeholder
+
+> [INSERT PERSONAL STORY HERE]
+
+**Fix:** Fill it or delete it before the build runs.
+
+### thin-unit
+entry 5 'The Path Ahead' runs 104 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### missing-section
+entry 5 'The Path Ahead' has no 'drill' section
+
+**Fix:** Every entry in this lane carries: anchor, body, drill, prayer.
+
+### thin-unit
+entry 6 'Trusting the Process' runs 153 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 6 'Trusting the Process' scores 0.76 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 7 'A New Perspective' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 7 'A New Perspective' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 8 'The Inner Work' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 8 'The Inner Work' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 9 'Moments of Stillness' runs 153 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 9 'Moments of Stillness' scores 0.76 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 10 'Finding Your Center' runs 104 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### missing-section
+entry 10 'Finding Your Center' has no 'drill' section
+
+**Fix:** Every entry in this lane carries: anchor, body, drill, prayer.
+
+### thin-unit
+entry 11 'The Deeper Call' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 11 'The Deeper Call' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 12 'Learning to Receive' runs 153 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 12 'Learning to Receive' scores 0.76 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 13 'A Posture of Openness' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 13 'A Posture of Openness' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 14 'The Gift of Presence' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 14 'The Gift of Presence' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 15 'Walking in Light' runs 143 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### missing-section
+entry 15 'Walking in Light' has no 'drill' section
+
+**Fix:** Every entry in this lane carries: anchor, body, drill, prayer.
+
+### abstract-unit
+entry 15 'Walking in Light' scores 0.82 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 16 'The Space Between' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 16 'The Space Between' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 17 'Choosing Gratitude' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 17 'Choosing Gratitude' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 18 'The Long Obedience' runs 153 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 18 'The Long Obedience' scores 0.76 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 19 'Becoming Who You Are' runs 114 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### abstract-unit
+entry 19 'Becoming Who You Are' scores 1.08 concrete markers per 100 words against a lane floor of 2.0
+
+**Fix:** Name the thing. A time, a number, a piece of gear, a decision someone actually made.
+
+### thin-unit
+entry 20 'The Final Invitation' runs 104 words against a 200 floor
+
+**Fix:** Write it or cut it. Padding it out is the third option and it is banned.
+
+### missing-section
+entry 20 'The Final Invitation' has no 'drill' section
+
+**Fix:** Every entry in this lane carries: anchor, body, drill, prayer.
+
+### abstract-book
+whole book scores 0.97 concrete markers per 100 words against a floor of 2.0
+
+**Fix:** This reads like advice about advice. Put the field back in it.
+
+### repetition
+46 of 83 paragraphs (55.4%) are caught in 395 near-duplicate pairs, over the 4% ceiling
+
+> entry 1 para 2 ~ entry 2 para 2 (100%); entry 1 para 2 ~ entry 3 para 2 (100%); entry 1 para 2 ~ entry 4 para 2 (100%); entry 1 para 2 ~ entry 5 para 2 (100%); entry 1 para 2 ~ entry 6 para 2 (100%); entry 1 para 2 ~ entry 7 para 2 (100%)
+
+**Fix:** The reader notices before you do. Cut one side of each pair.
+
+### filler
+100 filler phrases = 40.4 per thousand words
+
+> at the end of the day, in today's world, it is important to remember, the truth is, when it comes to
+
+**Fix:** Every one of these is a sentence that says nothing. Delete, do not rewrite.
+
+## Also found
+
+- **P2** `repeated-opening` 'faith is a...' opens 20 sentences
+- **P2** `repeated-opening` 'when we learn...' opens 20 sentences
+- **P2** `repeated-opening` 'this is the...' opens 20 sentences
+- **P2** `repeated-opening` 'in today's world...' opens 20 sentences
+- **P2** `repeated-opening` 'when it comes...' opens 20 sentences
+
+## Measurements
+
+```
+{
+  "total_words": 2558,
+  "units": 20,
+  "concrete_density_per_100w": 0.97,
+  "sentence_mean_words": 13.18,
+  "sentence_stdev": 7.84,
+  "filler_hits": 100,
+  "paragraphs": 83,
+  "near_duplicate_pairs": 395,
+  "paragraphs_involved_in_a_duplicate": 46,
+  "near_duplicate_ratio": 0.5542
+}
+```
+
+Fix the blockers and run the build again. The engine does not have a flag to publish past this.

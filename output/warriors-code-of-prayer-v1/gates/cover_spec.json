@@ -1,0 +1,33 @@
+{
+  "gate": "cover_spec",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 1
+  },
+  "measurements": {
+    "file": "warriors-code-of-prayer-v1_cover_wrap_11.5500x8.7500in.pdf",
+    "pages_in_wrap": 1,
+    "wrap_measured_in": [
+      11.55,
+      8.75
+    ],
+    "wrap_expected_in": [
+      11.55,
+      8.75
+    ],
+    "spine_expected_in": 0.3,
+    "spine_claimed_in": 0.3,
+    "page_count_used": 96
+  },
+  "findings": [
+    {
+      "severity": "P2",
+      "code": "spine-blank",
+      "message": "the spine carries no text at 96 pages (house threshold 100, KDP minimum 79)",
+      "evidence": "",
+      "fix": "A blank spine is invisible on a shelf. Adding pages to clear the threshold may cost nothing inside the flat print tier."
+    }
+  ]
+}

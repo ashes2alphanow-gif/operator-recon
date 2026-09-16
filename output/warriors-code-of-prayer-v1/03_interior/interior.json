@@ -1,0 +1,90 @@
+{
+  "pdf": "warriors-code-of-prayer-v1_interior_5.5x8.5.pdf",
+  "page_count": 96,
+  "trim": [
+    5.5,
+    8.5
+  ],
+  "paper": "cream",
+  "ink": "bw",
+  "margins": {
+    "gutter": 0.5,
+    "outer": 0.625,
+    "top": 0.625,
+    "bottom": 0.625
+  },
+  "margin_convergence": [
+    {
+      "attempt": 1,
+      "gutter_assumed_pages": 102,
+      "gutter": 0.5,
+      "pages_rendered": 96
+    }
+  ],
+  "words": 16302,
+  "words_per_page_actual": 169.8,
+  "body_first_page": 9,
+  "unit_start_pages": {
+    "1": 9,
+    "2": 11,
+    "3": 13,
+    "4": 15,
+    "5": 17,
+    "6": 19,
+    "7": 21,
+    "8": 23,
+    "9": 25,
+    "10": 27,
+    "11": 29,
+    "12": 31,
+    "13": 33,
+    "14": 35,
+    "15": 37,
+    "16": 39,
+    "17": 41,
+    "18": 43,
+    "19": 45,
+    "20": 47,
+    "21": 49,
+    "22": 51,
+    "23": 53,
+    "24": 55,
+    "25": 57,
+    "26": 59,
+    "27": 61,
+    "28": 63,
+    "29": 65,
+    "30": 67,
+    "31": 69,
+    "32": 71,
+    "33": 73,
+    "34": 75,
+    "35": 77,
+    "36": 79,
+    "37": 81,
+    "38": 83,
+    "39": 85,
+    "40": 87
+  },
+  "fonts_embedded": [
+    "A2ASerif",
+    "A2ASerif-Bold",
+    "A2ASerif-Italic",
+    "A2ADisplay",
+    "A2ADisplay-Reg"
+  ],
+  "font_licence": "Liberation fonts, SIL Open Font License 1.1 - embedding and print use permitted.",
+  "economics": {
+    "pages": 96,
+    "ink": "bw",
+    "paper": "cream",
+    "trim": "5.5x8.5",
+    "print_cost": 2.3,
+    "min_list_price": 3.84,
+    "list_price": 13.99,
+    "royalty_per_copy": 6.09,
+    "royalty_rate": 0.6,
+    "rate_table": "2026-09",
+    "verified": true
+  }
+}

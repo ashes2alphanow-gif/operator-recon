@@ -1,0 +1,115 @@
+{
+  "slug": "warriors-code-of-prayer-v1",
+  "status": "OK",
+  "halted_at": null,
+  "gates": {
+    "structure": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "result": "PASS"
+    },
+    "substance": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 5,
+      "result": "PASS"
+    },
+    "interior_spec": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 1,
+      "result": "PASS"
+    },
+    "cover_spec": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 1,
+      "result": "PASS"
+    },
+    "listing": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 0,
+      "result": "PASS"
+    },
+    "compliance": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 25,
+      "result": "PASS"
+    }
+  },
+  "steps": [
+    {
+      "step": "G0 intake",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G1 blueprint",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G2 structure gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G3 manuscript",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G4 substance gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G5 interior",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G6 interior spec gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G7 cover",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G8 cover spec gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G9 listing",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G10 listing gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G11 compliance",
+      "kind": "stage",
+      "result": "done"
+    },
+    {
+      "step": "G12 compliance gate",
+      "kind": "gate",
+      "result": "PASS"
+    },
+    {
+      "step": "G13 package",
+      "kind": "stage",
+      "result": "done"
+    }
+  ]
+}

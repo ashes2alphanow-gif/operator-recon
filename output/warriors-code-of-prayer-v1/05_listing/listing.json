@@ -1,0 +1,65 @@
+{
+  "title": "A Warrior's Code of Prayer",
+  "subtitle": "Forty Days of Prayer for Men Who Work While Others Sleep",
+  "title_field_as_submitted": "A Warrior's Code of Prayer: Forty Days of Prayer for Men Who Work While Others Sleep",
+  "title_length": 84,
+  "author": "Chris G. Stewart",
+  "imprint": "Ashes to Alpha",
+  "series": "A Warrior's Code",
+  "description": "You have not prayed a real prayer in months and you know it. Not because you stopped believing. Because the job ate the hours where that used to happen.\n\nA Warrior's Code of Prayer is a forty-day devotional written for men who work nights, weekends, and holidays in uniform. Border Patrol, police, fire, medics, corrections, military, and the men who used to and are still carrying it.\n\nEvery entry runs the same four beats. An anchor line from scripture. A page of plain talk about what that line has to do with the actual job. A drill, which is one thing you do rather than one thing you feel. A prayer short enough to say in a truck with the engine running.\n\nNo streaks. No journaling homework. No language that would embarrass you if another guy read it over your shoulder in the briefing room.\n\nWHAT IS INSIDE\n- Forty entries, each one finishable in under five minutes\n- An anchor, a page, a drill, and a prayer in every entry\n- Public domain scripture, so you are not paying for somebody's translation licence\n- An index of every anchor line in the back\n- 5.5 x 8.5 inches, sized for a cargo pocket or a go-bag\n\nWHO IT IS FOR\n- Law enforcement, fire, EMS, corrections, and military\n- Veterans and retired first responders still carrying the job\n- Fathers who come home at a strange hour and have to be present anyway\n- Anyone who wants a devotional that does not sound like it was written for a retreat\n\nWHAT IT IS NOT\nThis is not therapy, not a theology course, and not a promise that prayer fixes a shift schedule. It is a daily position, written plainly, by a man who works the same hours you do.\n\nChris G. Stewart. Ashes to Alpha.",
+  "description_length": 1640,
+  "keywords": [
+    "devotional for police officers",
+    "first responder devotional book",
+    "daily prayer book for men",
+    "military devotional for veterans",
+    "firefighter and paramedic devotional",
+    "christian book for law enforcement",
+    "short daily devotions for men"
+  ],
+  "keywords_spare": [
+    "prayer book for night shift workers",
+    "devotional for dads who work nights",
+    "forty day devotional for men",
+    "a warrior's code of prayer"
+  ],
+  "keywords_rejected": [
+    {
+      "keyword": "best devotional",
+      "reason": "contains a term KDP disallows in keywords"
+    }
+  ],
+  "categories": [
+    "Books > Religion & Spirituality > Christian Books & Bibles > Christian Living > Men's Issues",
+    "Books > Religion & Spirituality > Christian Books & Bibles > Worship & Devotion > Devotionals",
+    "Books > Religion & Spirituality > Christian Books & Bibles > Christian Living > Professional Growth"
+  ],
+  "bisac": [
+    "REL012120 RELIGION / Christian Living / Men's Interests",
+    "REL012000 RELIGION / Christian Life / Devotional",
+    "REL109000 RELIGION / Prayer"
+  ],
+  "economics": {
+    "pages": 96,
+    "ink": "bw",
+    "paper": "cream",
+    "trim": "5.5x8.5",
+    "print_cost": 2.3,
+    "min_list_price": 3.84,
+    "list_price": 13.99,
+    "royalty_per_copy": 6.09,
+    "royalty_rate": 0.6,
+    "rate_table": "2026-09",
+    "verified": true
+  },
+  "breakeven_units": 25,
+  "fixed_spend_usd": 150.0,
+  "page_count": 96,
+  "isbn": "KDP-assigned ASIN",
+  "ai_disclosure": {
+    "text": "ai-generated",
+    "images": "none",
+    "translation": "none"
+  },
+  "banned_claim_hits": []
+}

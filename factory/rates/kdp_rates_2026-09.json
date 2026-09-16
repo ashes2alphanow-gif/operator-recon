@@ -1,0 +1,103 @@
+{
+  "table_version": "2026-09",
+  "captured_utc": "2026-09-16",
+  "captured_by": "A2A Publishing Factory research pass",
+  "authority": "Amazon KDP help pages (Paperback Printing Cost, Print Options, Paperback Cover Calculator). kdp.amazon.com was not directly reachable from the build host on the capture date; values below were cross-checked against multiple secondary KDP calculators and MUST be re-verified inside KDP title setup before any price is committed.",
+  "verification_required_before_pricing": true,
+  "sources": [
+    "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "https://kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3R8RB6",
+    "https://kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6",
+    "https://cambric.pub/guides/kdp-printing-cost-guide/",
+    "https://www.kdpeasy.com/blog/spine-width-calculator-guide",
+    "https://publishing.co.uk/guides/kdp-margin-calculator/"
+  ],
+  "paper_caliper_in_per_page": {
+    "white": {"value": 0.002252, "confidence": "verified"},
+    "cream": {"value": 0.0025, "confidence": "verified"},
+    "premium_color": {"value": 0.002347, "confidence": "verified"},
+    "standard_color": {"value": 0.002252, "confidence": "verified"}
+  },
+  "spine_cover_allowance_in": 0.06,
+  "bleed_in": 0.125,
+  "cover_height_allowance_in": 0.25,
+  "interior_bleed_in": 0.125,
+  "gutter_minimums_in": [
+    {"min_pages": 24, "max_pages": 150, "gutter": 0.375},
+    {"min_pages": 151, "max_pages": 300, "gutter": 0.5},
+    {"min_pages": 301, "max_pages": 500, "gutter": 0.625},
+    {"min_pages": 501, "max_pages": 700, "gutter": 0.75},
+    {"min_pages": 701, "max_pages": 828, "gutter": 0.875}
+  ],
+  "outer_margin_min_in": {"no_bleed": 0.25, "with_bleed": 0.375},
+  "page_count_limits": {
+    "min_pages": 24,
+    "max_pages_bw_white": 828,
+    "max_pages_bw_cream": 776,
+    "max_pages_premium_color": 828,
+    "max_pages_standard_color": 828
+  },
+  "spine_text_min_pages": 79,
+  "house_spine_text_min_pages": 100,
+  "print_cost": {
+    "US": {
+      "bw_regular_trim": {
+        "confidence": "verified",
+        "flat_max_pages": 108,
+        "flat_cost": 2.30,
+        "fixed_cost": 1.00,
+        "per_page": 0.012
+      },
+      "bw_large_trim": {
+        "confidence": "verified",
+        "flat_max_pages": 108,
+        "flat_cost": 2.84,
+        "fixed_cost": 1.00,
+        "per_page": 0.017
+      },
+      "premium_color_regular_trim": {
+        "confidence": "unverified",
+        "flat_max_pages": 0,
+        "flat_cost": null,
+        "fixed_cost": 0.85,
+        "per_page": 0.0700
+      },
+      "premium_color_large_trim": {
+        "confidence": "unverified",
+        "flat_max_pages": 0,
+        "flat_cost": null,
+        "fixed_cost": 1.00,
+        "per_page": 0.0850
+      },
+      "standard_color_regular_trim": {
+        "confidence": "unverified",
+        "flat_max_pages": 108,
+        "flat_cost": 3.60,
+        "fixed_cost": 1.00,
+        "per_page": 0.0255
+      },
+      "standard_color_large_trim": {
+        "confidence": "unverified",
+        "flat_max_pages": 108,
+        "flat_cost": 4.20,
+        "fixed_cost": 1.00,
+        "per_page": 0.0402
+      }
+    }
+  },
+  "royalty": {
+    "paperback_rate": 0.60,
+    "paperback_min_list_price_rule": "list price must be at least printing cost / 0.60",
+    "ebook": {
+      "rate_70_band": {"min": 2.99, "max": 9.99, "rate": 0.70, "delivery_fee_applies": true},
+      "rate_35_band": {"min": 0.99, "max": 200.00, "rate": 0.35, "delivery_fee_applies": false}
+    }
+  },
+  "regular_trim_sizes_in": [
+    [5.0, 8.0], [5.06, 7.81], [5.25, 8.0], [5.5, 8.5], [6.0, 9.0]
+  ],
+  "large_trim_sizes_in": [
+    [6.14, 9.21], [6.69, 9.61], [7.0, 10.0], [7.44, 9.69], [7.5, 9.25],
+    [8.0, 10.0], [8.25, 6.0], [8.25, 8.25], [8.5, 8.5], [8.5, 11.0], [8.27, 11.69]
+  ]
+}

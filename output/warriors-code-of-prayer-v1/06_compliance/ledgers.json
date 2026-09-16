@@ -1,0 +1,1229 @@
+{
+  "slug": "warriors-code-of-prayer-v1",
+  "lane": "devotional",
+  "claim_risk": "low",
+  "sources": [
+    {
+      "id": "web-bible",
+      "citation": "The World English Bible, public domain modern English translation of the ASV.",
+      "url": "https://worldenglish.bible/",
+      "accessed": "2026-09-16",
+      "type": "primary text"
+    },
+    {
+      "id": "kdp-ai-policy",
+      "citation": "Amazon KDP Content Guidelines, AI-generated content disclosure requirements.",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+      "accessed": "2026-09-16",
+      "type": "platform policy"
+    }
+  ],
+  "claims_declared": [],
+  "claims_detected": [
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "The alarm went at 1730 for a shift that starts at 1900, and you laid there for six minutes doing the arithmetic every man in this work does.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "Then you put your feet on the floor, and you went, and by 1845 you were standing in a briefing room holding coffee you did not taste.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "That has never been true, not for you and not for anybody who wrote a word of scripture.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "He still walks the fence line at 0300 in the cold with a flashlight that is dimmer than it was last month.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "It is carrying the outcome of the work, which was never yours to carry, and which you picked up anyway somewhere around your fourth year.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 2,
+      "unit_title": "The Hours Nobody Sees",
+      "sentence": "The county will never learn the name of the man who sat at the intersection until 0400 so that nothing happened there.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 2,
+      "unit_title": "The Hours Nobody Sees",
+      "sentence": "He is in the truck at 0400 with the heater rattling.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "You watched a senior man walk toward a vehicle at night with his hands relaxed, and you decided he felt nothing, and you decided that your own heart rate at 140 was evidence of a defect.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "Courage was never the absence of the thing.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "The parking lot of a bar at 0230 counts.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 4,
+      "unit_title": "Tired Is Not Weak",
+      "sentence": "They drink coffee at 2200 and tell themselves they are fine because they have always been fine.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 6,
+      "unit_title": "Eyes Up",
+      "sentence": "You know which houses have dogs, which road washes out, which family is always yelling and never dangerous.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 7,
+      "unit_title": "The Radio Goes Quiet",
+      "sentence": "But standing in the silence at 0200 with a dead handheld, the knowing does not do much for you.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "You have never once been taught how to brief off.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "So the shift never actually ends.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "And the last thing he does is lie down and sleep, because the safety was never a function of the trouble being over.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "Build an end-of-shift sequence and run it the same way every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 9,
+      "unit_title": "What You Carry",
+      "sentence": "You have never once done that inventory on the other load.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 9,
+      "unit_title": "What You Carry",
+      "sentence": "The supervisor who lied in a statement and never got touched for it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "The problem is the other one, the one you have never said out loud, that shows up at 0300 about four times a year and runs unedited.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "You are not trying to process it tonight, you are breaking the seal on it never having been said.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "God, there is a thing from that night I have never said out loud, not once, not even to you.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "Anger like that is almost never about the thing in front of it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "It is almost never the light.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "It is something from 2019 you never named.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "A board sits in a room with coffee and a whiteboard and pulls apart something you did with partial information, at night, while your heart rate was at 160 and somebody was screaming.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "Then you spend the next three years running your own review, except your review never adjourns and never issues a finding.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "You have never said it plainly to anybody, and you have built about nine years of justification around it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "Father, I have been running the same review for years and it never closes.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "So the pause button gets pressed and never released, and by year twelve there are eleven unreleased pauses stacked in a man.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "It comes out as grief, or it comes out as anger, or it comes out as a man drinking alone at 1400 on a Tuesday.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "If you are the one whose name is on somebody else's list right now, call 988 or your peer support line tonight.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "Then say what you are still angry about, because with most of these there is anger under the grief and it has never been allowed on the net.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Your body has been keeping a log this whole time and has never once asked your permission.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Blood pressure that was 118 over 70 at the academy and has drifted every year since without one dramatic event to blame.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "The way you wake at 0230 on your days off because your system has decided that is a working hour.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Scripture never treats it that way.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "You have requested air support, asked for a translator, ordered a medevac, and called a colleague at 0200 about a warrant question.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "A man who only ever carries for others and never lets anybody carry for him is not obeying that verse.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "There is a man on your crew right now who would take your call and never mention it again.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "That arithmetic is almost always wrong, and it is the same arithmetic that gets men to walk into a building alone.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "If the load has moved past hard into dangerous, call 988 in the United States, or your agency peer support line.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 17,
+      "unit_title": "Walking In the Door",
+      "sentence": "It is about switching from a scanning posture to a presence posture, which is a different skill and one you have never practiced deliberately once.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 18,
+      "unit_title": "Your Wife Is Not the Enemy",
+      "sentence": "God, I treat her like a threat and she has never once been one.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 19,
+      "unit_title": "The Kid Who Waited Up",
+      "sentence": "It was 2340, he has school, and he has done this four nights this week.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 19,
+      "unit_title": "The Kid Who Waited Up",
+      "sentence": "So he keeps engineering it, and getting sent to bed, and engineering it again, because a kid will take negative contact over no contact every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 23,
+      "unit_title": "Keeping One Promise",
+      "sentence": "\"Saturday at 10\" is a complete answer.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 24,
+      "unit_title": "Rest That Is Not Collapse",
+      "sentence": "You come off a stretch, you sleep until 1100, you are useless until about 1500, and then you burn what is left on errands that piled up.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "In a report you wrote at 0430 on your sixth day, when you were smoked and the easy version was two sentences shorter than the accurate one.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "A report you filed in 2019 can surface in a proceeding in 2031, read out loud by somebody who does not know you, in a room where you do not get to explain the context.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "It is the man who goes back and corrects a document that nobody flagged, at 0500, when he could have gone home.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "Yahweh, my name is on documents I wrote tired and I did not always tell the whole shape of it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "Every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "You do not know it from the inside, because from the inside the covering always feels cheaper in the moment.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "And every man who suspects the truth has a piece of leverage on you that he did not ask for and may never use, which does not stop it from being leverage.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "You have one you have never said.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 32,
+      "unit_title": "The Man You Trained",
+      "sentence": "What does not get reorganized is the agent who runs a track the way you showed him in 2018, and who is now showing somebody else, and who says \"an old guy taught me this\" without remembering your name.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 33,
+      "unit_title": "The Long Career",
+      "sentence": "The man who is still standing at year twenty-two is almost never the man who was most impressive at year three.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 35,
+      "unit_title": "Who You Are Without the Badge",
+      "sentence": "For others it is a medical, or an administrative leave where the credentials go in an envelope and the man goes home at 1400 on a Tuesday with nothing to do and no name.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 36,
+      "unit_title": "Retirement Is a Deployment",
+      "sentence": "You would never move a team without a plan, and you are planning to leave this career with a date and a vague feeling.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 37,
+      "unit_title": "The Man at the Funeral",
+      "sentence": "The words are not the point and they were never the point.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "There are men who have worked twenty-four years in this profession and never written down one page of what they learned.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "Somebody sat down and made a thing explicit that had been implicit for a generation, and then it stopped dying every time a senior man retired.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "God, I have been carrying things in my head that other men need and I have never written one page of it down.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 39,
+      "unit_title": "Handing Off the Post",
+      "sentence": "What you were worried about that never developed.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    }
+  ],
+  "claims_unresolved": [
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "The alarm went at 1730 for a shift that starts at 1900, and you laid there for six minutes doing the arithmetic every man in this work does.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "Then you put your feet on the floor, and you went, and by 1845 you were standing in a briefing room holding coffee you did not taste.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "That has never been true, not for you and not for anybody who wrote a word of scripture.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "He still walks the fence line at 0300 in the cold with a flashlight that is dimmer than it was last month.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 1,
+      "unit_title": "Taking the Post",
+      "sentence": "It is carrying the outcome of the work, which was never yours to carry, and which you picked up anyway somewhere around your fourth year.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 2,
+      "unit_title": "The Hours Nobody Sees",
+      "sentence": "The county will never learn the name of the man who sat at the intersection until 0400 so that nothing happened there.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 2,
+      "unit_title": "The Hours Nobody Sees",
+      "sentence": "He is in the truck at 0400 with the heater rattling.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "You watched a senior man walk toward a vehicle at night with his hands relaxed, and you decided he felt nothing, and you decided that your own heart rate at 140 was evidence of a defect.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "Courage was never the absence of the thing.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 3,
+      "unit_title": "Fear on Station",
+      "sentence": "The parking lot of a bar at 0230 counts.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 4,
+      "unit_title": "Tired Is Not Weak",
+      "sentence": "They drink coffee at 2200 and tell themselves they are fine because they have always been fine.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 6,
+      "unit_title": "Eyes Up",
+      "sentence": "You know which houses have dogs, which road washes out, which family is always yelling and never dangerous.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 7,
+      "unit_title": "The Radio Goes Quiet",
+      "sentence": "But standing in the silence at 0200 with a dead handheld, the knowing does not do much for you.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "You have never once been taught how to brief off.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "So the shift never actually ends.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "And the last thing he does is lie down and sleep, because the safety was never a function of the trouble being over.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 8,
+      "unit_title": "End of Shift",
+      "sentence": "Build an end-of-shift sequence and run it the same way every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 9,
+      "unit_title": "What You Carry",
+      "sentence": "You have never once done that inventory on the other load.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 9,
+      "unit_title": "What You Carry",
+      "sentence": "The supervisor who lied in a statement and never got touched for it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "The problem is the other one, the one you have never said out loud, that shows up at 0300 about four times a year and runs unedited.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "You are not trying to process it tonight, you are breaking the seal on it never having been said.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 10,
+      "unit_title": "The Call You Remember",
+      "sentence": "God, there is a thing from that night I have never said out loud, not once, not even to you.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "Anger like that is almost never about the thing in front of it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "It is almost never the light.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 11,
+      "unit_title": "Anger in the Truck",
+      "sentence": "It is something from 2019 you never named.",
+      "kinds": [
+        "quantity",
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "A board sits in a room with coffee and a whiteboard and pulls apart something you did with partial information, at night, while your heart rate was at 160 and somebody was screaming.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "Then you spend the next three years running your own review, except your review never adjourns and never issues a finding.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "You have never said it plainly to anybody, and you have built about nine years of justification around it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 12,
+      "unit_title": "The Guilt You Kept",
+      "sentence": "Father, I have been running the same review for years and it never closes.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "So the pause button gets pressed and never released, and by year twelve there are eleven unreleased pauses stacked in a man.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "It comes out as grief, or it comes out as anger, or it comes out as a man drinking alone at 1400 on a Tuesday.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "If you are the one whose name is on somebody else's list right now, call 988 or your peer support line tonight.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 13,
+      "unit_title": "Men Who Did Not Make It",
+      "sentence": "Then say what you are still angry about, because with most of these there is anger under the grief and it has never been allowed on the net.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Your body has been keeping a log this whole time and has never once asked your permission.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Blood pressure that was 118 over 70 at the academy and has drifted every year since without one dramatic event to blame.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "The way you wake at 0230 on your days off because your system has decided that is a working hour.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 14,
+      "unit_title": "The Body Keeps Time",
+      "sentence": "Scripture never treats it that way.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "You have requested air support, asked for a translator, ordered a medevac, and called a colleague at 0200 about a warrant question.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "A man who only ever carries for others and never lets anybody carry for him is not obeying that verse.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "There is a man on your crew right now who would take your call and never mention it again.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "That arithmetic is almost always wrong, and it is the same arithmetic that gets men to walk into a building alone.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 16,
+      "unit_title": "Asking for Help",
+      "sentence": "If the load has moved past hard into dangerous, call 988 in the United States, or your agency peer support line.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 17,
+      "unit_title": "Walking In the Door",
+      "sentence": "It is about switching from a scanning posture to a presence posture, which is a different skill and one you have never practiced deliberately once.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 18,
+      "unit_title": "Your Wife Is Not the Enemy",
+      "sentence": "God, I treat her like a threat and she has never once been one.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 19,
+      "unit_title": "The Kid Who Waited Up",
+      "sentence": "It was 2340, he has school, and he has done this four nights this week.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 19,
+      "unit_title": "The Kid Who Waited Up",
+      "sentence": "So he keeps engineering it, and getting sent to bed, and engineering it again, because a kid will take negative contact over no contact every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 23,
+      "unit_title": "Keeping One Promise",
+      "sentence": "\"Saturday at 10\" is a complete answer.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 24,
+      "unit_title": "Rest That Is Not Collapse",
+      "sentence": "You come off a stretch, you sleep until 1100, you are useless until about 1500, and then you burn what is left on errands that piled up.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "In a report you wrote at 0430 on your sixth day, when you were smoked and the easy version was two sentences shorter than the accurate one.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "A report you filed in 2019 can surface in a proceeding in 2031, read out loud by somebody who does not know you, in a room where you do not get to explain the context.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "It is the man who goes back and corrects a document that nobody flagged, at 0500, when he could have gone home.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 30,
+      "unit_title": "Keeping Your Word In Writing",
+      "sentence": "Yahweh, my name is on documents I wrote tired and I did not always tell the whole shape of it.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "Every time.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "You do not know it from the inside, because from the inside the covering always feels cheaper in the moment.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "And every man who suspects the truth has a piece of leverage on you that he did not ask for and may never use, which does not stop it from being leverage.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 31,
+      "unit_title": "When You Were Wrong",
+      "sentence": "You have one you have never said.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 32,
+      "unit_title": "The Man You Trained",
+      "sentence": "What does not get reorganized is the agent who runs a track the way you showed him in 2018, and who is now showing somebody else, and who says \"an old guy taught me this\" without remembering your name.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 33,
+      "unit_title": "The Long Career",
+      "sentence": "The man who is still standing at year twenty-two is almost never the man who was most impressive at year three.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 35,
+      "unit_title": "Who You Are Without the Badge",
+      "sentence": "For others it is a medical, or an administrative leave where the credentials go in an envelope and the man goes home at 1400 on a Tuesday with nothing to do and no name.",
+      "kinds": [
+        "quantity"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 36,
+      "unit_title": "Retirement Is a Deployment",
+      "sentence": "You would never move a team without a plan, and you are planning to leave this career with a date and a vague feeling.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 37,
+      "unit_title": "The Man at the Funeral",
+      "sentence": "The words are not the point and they were never the point.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "There are men who have worked twenty-four years in this profession and never written down one page of what they learned.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "Somebody sat down and made a thing explicit that had been implicit for a generation, and then it stopped dying every time a senior man retired.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 38,
+      "unit_title": "What Gets Written Down",
+      "sentence": "God, I have been carrying things in my head that other men need and I have never written one page of it down.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    },
+    {
+      "unit": 39,
+      "unit_title": "Handing Off the Post",
+      "sentence": "What you were worried about that never developed.",
+      "kinds": [
+        "absolute"
+      ],
+      "claim_ids": []
+    }
+  ],
+  "stories": [
+    {
+      "id": "composite-shift",
+      "summary": "Night shift, truck, and post details used across the entries.",
+      "provenance": "composite",
+      "consent": "",
+      "identifying_details_changed": true
+    }
+  ],
+  "ai_origin": {
+    "text": "ai-generated",
+    "images": "none",
+    "translation": "none"
+  },
+  "kdp_disclosure_required_for": [
+    "text"
+  ],
+  "professional_review": {
+    "reviewer": "",
+    "date": ""
+  },
+  "professional_review_required": false,
+  "review_discipline": "scripture citation and translation licensing check",
+  "scripture_translation": "World English Bible (WEB), public domain",
+  "scripture_translation_public_domain": true
+}

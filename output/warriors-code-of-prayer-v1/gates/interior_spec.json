@@ -1,0 +1,40 @@
+{
+  "gate": "interior_spec",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 1
+  },
+  "measurements": {
+    "file": "warriors-code-of-prayer-v1_interior_5.5x8.5.pdf",
+    "bytes": 207773,
+    "pages_counted_in_file": 96,
+    "pages_claimed_by_builder": 96,
+    "page_sizes_in": [
+      [
+        5.5,
+        8.5
+      ]
+    ],
+    "embedded_font_streams": 4,
+    "extracted_characters": 94391,
+    "base_fonts": [
+      "AAAAAA+LiberationSans",
+      "AAAAAA+LiberationSans-Bold",
+      "AAAAAA+LiberationSerif",
+      "AAAAAA+LiberationSerif-Italic"
+    ],
+    "words_per_page_actual": 169.8,
+    "manuscript_probes_found": "5/5"
+  },
+  "findings": [
+    {
+      "severity": "P2",
+      "code": "flat-tier-headroom",
+      "message": "12 more pages would cost nothing to print - anything up to 108 pages prints at the same flat $2.30",
+      "evidence": "",
+      "fix": "Free room for a longer back matter, a bonus section, or a companion sample. Do not pad with filler; the substance gate is still armed."
+    }
+  ]
+}

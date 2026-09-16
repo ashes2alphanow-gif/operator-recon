@@ -1,0 +1,22 @@
+[
+  {
+    "decision": "rate table",
+    "value": "2026-09",
+    "why": "prices and spine come from a dated table, not from memory"
+  },
+  {
+    "decision": "page count",
+    "value": 96,
+    "why": "measured from the rendered interior, not estimated"
+  },
+  {
+    "decision": "byline",
+    "value": "Chris G. Stewart",
+    "why": "locked in spec.py"
+  },
+  {
+    "decision": "trim/paper/ink",
+    "value": "5.5x8.5 / cream / bw",
+    "why": "lane default unless the spec overrode it"
+  }
+]

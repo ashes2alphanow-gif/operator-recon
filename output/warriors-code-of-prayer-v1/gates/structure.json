@@ -1,0 +1,15 @@
+{
+  "gate": "structure",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "measurements": {
+    "unit_count": 40,
+    "estimated_pages": 102,
+    "word_budget_total": 16000
+  },
+  "findings": []
+}

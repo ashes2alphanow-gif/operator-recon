@@ -1,0 +1,58 @@
+{
+  "gate": "substance",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 5
+  },
+  "measurements": {
+    "total_words": 16302,
+    "units": 40,
+    "concrete_density_per_100w": 3.21,
+    "sentence_mean_words": 11.84,
+    "sentence_stdev": 7.84,
+    "filler_hits": 0,
+    "paragraphs": 367,
+    "near_duplicate_pairs": 0,
+    "paragraphs_involved_in_a_duplicate": 0,
+    "near_duplicate_ratio": 0.0
+  },
+  "findings": [
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'that is the...' opens 17 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'it is a...' opens 14 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'it is the...' opens 14 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'there is a...' opens 10 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'that is not...' opens 10 sentences",
+      "evidence": "",
+      "fix": ""
+    }
+  ]
+}

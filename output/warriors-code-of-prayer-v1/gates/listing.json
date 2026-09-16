@@ -1,0 +1,18 @@
+{
+  "gate": "listing",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "measurements": {
+    "title_length": 84,
+    "description_length": 1640,
+    "keywords": 7,
+    "categories": 3,
+    "list_price": 13.99,
+    "royalty_per_copy": 6.09
+  },
+  "findings": []
+}

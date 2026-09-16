@@ -1,0 +1,78 @@
+{
+  "gate": "substance",
+  "result": "FAIL",
+  "counts": {
+    "P0": 2,
+    "P1": 1,
+    "P2": 5
+  },
+  "measurements": {
+    "total_words": 16171,
+    "units": 40,
+    "concrete_density_per_100w": 1.79,
+    "sentence_mean_words": 11.81,
+    "sentence_stdev": 7.76,
+    "filler_hits": 1,
+    "paragraphs": 365,
+    "near_duplicate_pairs": 0,
+    "near_duplicate_ratio": 0.0
+  },
+  "findings": [
+    {
+      "severity": "P0",
+      "code": "abstract-unit",
+      "message": "entry 7 'The Radio Goes Quiet' scores 0.78 concrete markers per 100 words against a lane floor of 1.5",
+      "evidence": "",
+      "fix": "Name the thing. A time, a number, a piece of gear, a decision someone actually made."
+    },
+    {
+      "severity": "P0",
+      "code": "abstract-unit",
+      "message": "entry 37 'The Man at the Funeral' scores 0.25 concrete markers per 100 words against a lane floor of 1.5",
+      "evidence": "",
+      "fix": "Name the thing. A time, a number, a piece of gear, a decision someone actually made."
+    },
+    {
+      "severity": "P1",
+      "code": "filler",
+      "message": "1 filler phrases present",
+      "evidence": "in order to",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'that is the...' opens 17 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'it is the...' opens 14 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'it is a...' opens 13 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'there is a...' opens 10 sentences",
+      "evidence": "",
+      "fix": ""
+    },
+    {
+      "severity": "P2",
+      "code": "repeated-opening",
+      "message": "'that is a...' opens 10 sentences",
+      "evidence": "",
+      "fix": ""
+    }
+  ]
+}

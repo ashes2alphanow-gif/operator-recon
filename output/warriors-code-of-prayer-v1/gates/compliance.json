@@ -1,0 +1,197 @@
+{
+  "gate": "compliance",
+  "result": "PASS",
+  "counts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 25
+  },
+  "measurements": {
+    "claim_risk": "low",
+    "sources": 2,
+    "claims_declared": 0,
+    "claims_detected": 65,
+    "claims_unresolved": 65,
+    "stories": 1,
+    "ai_generated_components": [
+      "text"
+    ]
+  },
+  "findings": [
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 1 states a quantity with no claim-ledger entry",
+      "evidence": "The alarm went at 1730 for a shift that starts at 1900, and you laid there for six minutes doing the arithmetic every man in this work does.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 1 states a quantity with no claim-ledger entry",
+      "evidence": "Then you put your feet on the floor, and you went, and by 1845 you were standing in a briefing room holding coffee you did not taste.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 1 states a absolute with no claim-ledger entry",
+      "evidence": "That has never been true, not for you and not for anybody who wrote a word of scripture.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 1 states a quantity with no claim-ledger entry",
+      "evidence": "He still walks the fence line at 0300 in the cold with a flashlight that is dimmer than it was last month.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 1 states a absolute with no claim-ledger entry",
+      "evidence": "It is carrying the outcome of the work, which was never yours to carry, and which you picked up anyway somewhere around your fourth year.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 2 states a quantity/absolute with no claim-ledger entry",
+      "evidence": "The county will never learn the name of the man who sat at the intersection until 0400 so that nothing happened there.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 2 states a quantity with no claim-ledger entry",
+      "evidence": "He is in the truck at 0400 with the heater rattling.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 3 states a quantity with no claim-ledger entry",
+      "evidence": "You watched a senior man walk toward a vehicle at night with his hands relaxed, and you decided he felt nothing, and you decided that your own heart rate at 140 was evidence of a defect.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 3 states a absolute with no claim-ledger entry",
+      "evidence": "Courage was never the absence of the thing.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 3 states a quantity with no claim-ledger entry",
+      "evidence": "The parking lot of a bar at 0230 counts.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 4 states a quantity/absolute with no claim-ledger entry",
+      "evidence": "They drink coffee at 2200 and tell themselves they are fine because they have always been fine.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 6 states a absolute with no claim-ledger entry",
+      "evidence": "You know which houses have dogs, which road washes out, which family is always yelling and never dangerous.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 7 states a quantity with no claim-ledger entry",
+      "evidence": "But standing in the silence at 0200 with a dead handheld, the knowing does not do much for you.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 8 states a absolute with no claim-ledger entry",
+      "evidence": "You have never once been taught how to brief off.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 8 states a absolute with no claim-ledger entry",
+      "evidence": "So the shift never actually ends.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 8 states a absolute with no claim-ledger entry",
+      "evidence": "And the last thing he does is lie down and sleep, because the safety was never a function of the trouble being over.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 8 states a absolute with no claim-ledger entry",
+      "evidence": "Build an end-of-shift sequence and run it the same way every time.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 9 states a absolute with no claim-ledger entry",
+      "evidence": "You have never once done that inventory on the other load.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 9 states a absolute with no claim-ledger entry",
+      "evidence": "The supervisor who lied in a statement and never got touched for it.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 10 states a quantity/absolute with no claim-ledger entry",
+      "evidence": "The problem is the other one, the one you have never said out loud, that shows up at 0300 about four times a year and runs unedited.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 10 states a absolute with no claim-ledger entry",
+      "evidence": "You are not trying to process it tonight, you are breaking the seal on it never having been said.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 10 states a absolute with no claim-ledger entry",
+      "evidence": "God, there is a thing from that night I have never said out loud, not once, not even to you.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 11 states a absolute with no claim-ledger entry",
+      "evidence": "Anger like that is almost never about the thing in front of it.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 11 states a absolute with no claim-ledger entry",
+      "evidence": "It is almost never the light.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    },
+    {
+      "severity": "P2",
+      "code": "untracked-claim",
+      "message": "entry 11 states a quantity/absolute with no claim-ledger entry",
+      "evidence": "It is something from 2019 you never named.",
+      "fix": "Tag it in the manuscript as [c:some-id] and add the entry, or cut the number."
+    }
+  ]
+}
