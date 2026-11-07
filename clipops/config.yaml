@@ -1,0 +1,89 @@
+# CLIPOPS — Alpha 2 Unfiltered clip pipeline
+# Edit this file. Everything the agents do is driven from here.
+
+channel:
+  name: "Alpha 2 Unfiltered"
+  timezone: "America/Phoenix"          # change to your local zone
+  post_slots: ["11:30", "17:30", "20:45"] # local times; 2-3/day is the working cadence
+  watermark: ""                         # leave blank until you pick the mark for this channel
+
+# ---- RIGHTS ----------------------------------------------------------------
+# YouTube's reused-content rule is NOT about permission. A licensed clip with
+# no original layer still gets the channel rejected or demonetized.
+# require_commentary=true means: anything that isn't your own footage cannot
+# publish until your voice-over is in the clip folder.
+rights:
+  require_commentary: true
+  allow_unlicensed_with_commentary: false   # fair-use lane. Your call. Default off.
+
+# ---- SOURCES ---------------------------------------------------------------
+sources:
+  # 1) Your own footage. Strongest lane. Drop .mp4/.mov files here.
+  own_footage_dir: "own_footage"
+
+  # 2) Creators who gave you permission (email, DM, clip program terms).
+  #    Keep the proof. rights: permitted
+  allowlist: []
+  #  - url: "https://www.youtube.com/@SomeHandlerPodcast/videos"
+  #    credit: "@SomeHandlerPodcast"
+  #    proof: "email 2026-11-08, OK to clip w/ credit"
+  #    rights: permitted
+
+  # 3) Open search. Creative Commons only unless you flip the fair-use lane.
+  searches:
+    - "k9 handler interview working dog story"
+    - "police k9 podcast"
+    - "search and rescue rescue story podcast"
+    - "firefighter paramedic stories podcast"
+    - "combat veteran interview leadership lesson"
+    - "veteran father podcast responsibility"
+    - "first responder dark humor stories"
+    - "special operations selection story interview"
+  cc_only: true
+  results_per_search: 25
+  min_duration_min: 10        # long-form = more clip material
+  max_age_days: 730
+
+# ---- BRAND RUBRIC (the Analyst scores against this) ------------------------
+brand:
+  pillars:
+    pressure: "Men carrying weight: duty, fatherhood, doing the hard thing when nobody is watching. A2A register: say it straight."
+    field_truth: "Operator reality from LE, military, SAR, fire, EMS. Hard calls, aftermath, what the job actually costs. Specific details only someone who did it would know."
+    k9: "Working dogs and handlers. Tracking, trailing, HRD, bite work, the bond, the dog doing something nobody believes. RSU register: in-group, funny, proud."
+    dark_humor: "Dry, dark, self-aware humor from people under stress. RSU register. Never punches down, never mocks the dogs or the mission."
+    earned_doctrine: "A compressed lesson from someone who paid for it. One idea, stated plainly, that a man can use tomorrow."
+  hard_no:
+    - "partisan politics, elections, candidates"
+    - "immigration or border policy debate, any take on CBP/DHS operations"
+    - "manosphere / 'alpha male' / red-pill / dating-strategy content"
+    - "hustle, rise-and-grind, millionaire-mindset, motivational-speaker content"
+    - "real gore, real deaths, identifiable victims"
+    - "anything mocking working dogs, victims, or the job"
+    - "OPSEC: tactics, locations, unit or agency specifics"
+    - "tacticool cosplay, gear flexing, fake or implied credentials"
+    - "medical or legal advice presented as instruction"
+  min_score: 7.0
+  max_clips_per_video: 4
+  clip_len_s: [20, 75]
+
+# ---- MODEL -----------------------------------------------------------------
+model:
+  name: "claude-opus-5-5"
+  effort: "medium"
+
+# ---- RENDER ----------------------------------------------------------------
+render:
+  frame: "blur"            # blur = full frame over blurred fill (safe for 2-shot podcasts); crop = center crop
+  font: "Arial"
+  caption_words: 3
+  card_seconds: 2.5        # end card length when there is no VO
+  loudness_lufs: -14
+
+# ---- PUBLISH ---------------------------------------------------------------
+# manual = build a post kit (video + copy) you upload from YouTube Studio / phone.
+# api    = upload through the YouTube Data API. Unaudited API projects upload as
+#          LOCKED PRIVATE. Stay on manual until Google clears your audit.
+publish:
+  mode: "manual"
+  category_id: "22"
+  made_for_kids: false
