@@ -1,9 +1,10 @@
 // OPERATOR RECON — service worker. Offline-first cache.
-const CACHE = 'operator-recon-v1';
+const CACHE = 'operator-recon-v2';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
+  './icon-48.png',
   './icon-180.png',
   './icon-192.png',
   './icon-512.png'
