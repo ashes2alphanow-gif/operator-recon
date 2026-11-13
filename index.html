@@ -54,6 +54,9 @@ h1,h2,h3,h4{margin:0;}
 .muted{color:var(--muted);}
 .tiny{font-size:12px;}
 .label{font-size:11px;letter-spacing:0.1em;color:var(--muted);text-transform:uppercase;}
+.guide-note{margin:10px 2px 0;font-size:13px;line-height:1.5;color:var(--muted);}
+.guide-note.center{text-align:center;margin-top:16px;}
+.guide-note a{font-weight:600;text-underline-offset:2px;}
 
 /* ---- Nutrition strip ---- */
 .fuel-strip{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px;}
@@ -329,7 +332,7 @@ const PROGRAM = [
    ]},
    {type:'swim', title:'SWIM', blocks:[
      SWIM('Swim 1000m','5 × 100m mod · 5 × 50m fast · 5 × 50m easy'),
-     NOTE('Safety','No breath-hold / underwater work alone. Lifeguard present or skip. Never hyperventilate first.'),
+     NOTE('Safety','No breath-hold / underwater work. Lifeguard present or skip. Never hyperventilate first.'),
      C('Core + mobility','15 min'),
    ]},
    {type:'lift', title:'UPPER + CAPACITY', blocks:[
@@ -362,7 +365,7 @@ const PROGRAM = [
    ]},
    {type:'swim', title:'SWIM', blocks:[
      SWIM('Swim 1200m','6 × 100m (25s rest) · 6 × 50m fast (20s rest) · 300m easy'),
-     C('Core circuit × 4',''),
+     C('Core circuit × 4','30s hollow · 15 leg raises · 30s side plank/side'),
    ]},
    {type:'lift', title:'UPPER + CAPACITY', blocks:[
      S('Bench','5 × 5, +5 lb'),
@@ -445,6 +448,13 @@ const PROGRAM = [
 
 const TOTAL_DAYS = 42;
 const PHASE_CLASS = {REBUILD:'', BUILD:'build', PEAK:'peak'};
+
+// Printable companion. One place to swap if an A2A store URL replaces this page.
+const FIELD_GUIDE_URL = 'https://roughsetusa.com/products/a2a-operator-recon-field-guide';
+function fieldGuideNote(cls){
+  const klass = cls ? 'guide-note '+cls : 'guide-note';
+  return `<p class="${klass}">Want it on paper? Get the 48-page <a href="${FIELD_GUIDE_URL}" target="_blank" rel="noopener noreferrer">OPERATOR RECON Field Guide</a>: every workout, scaling tables and logs ($9.99).</p>`;
+}
 
 /* ---------- Icons ---------- */
 const ICON = {
@@ -620,7 +630,7 @@ function renderToday(forceOff, isDetail){
       const sd = dateForOffset(info.off);
       banner = `<div class="banner">Behind schedule — pick up here. This is ${DOW[info.off%7]}, Week ${Math.floor(info.off/7)+1} (${fmtDate(sd)}). Skipped days are never made up.</div>`;
     } else if(info.state==='after'){
-      banner = `<div class="banner">Program complete. Reviewing the final day — head to STATS for your retest comparison.</div>`;
+      banner = `<div class="banner">Program complete. Reviewing the final day — head to STATS for your retest comparison.</div>${fieldGuideNote()}`;
     }
   }
   const {w,d}=offToWD(off);
@@ -811,6 +821,7 @@ function renderProgram(){
       </button>`;
     }
     html += `</div></div>`;
+    if(w===5) html += fieldGuideNote();
   }
   screen.innerHTML=html;
   bindCommon();
@@ -1195,6 +1206,7 @@ function renderSettings(){
       <input type="file" id="importFile" accept="application/json" style="display:none">
       <button class="cta danger" style="margin-top:10px" id="resetBtn">Reset program</button>
     </div>
+    ${fieldGuideNote('center')}
     <div class="tiny muted" style="text-align:center;margin-top:8px">OPERATOR RECON · offline · v1</div>`;
   bindCommon();
 
