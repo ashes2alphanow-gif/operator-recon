@@ -225,7 +225,7 @@ a{color:var(--blue);}
 </div>
 <div id="overlay-root"></div>
 <div class="toast" id="toast"></div>
-
+<script src="./config.js"></script>
 <script>
 "use strict";
 /* ============================================================
@@ -959,6 +959,8 @@ function renderStats(){
       <div class="tiny muted">best ${str.best} days</div></div>
   </div>`;
 
+  html += fieldGuideCard();
+
   // Charts
   html += chartCard('Bodyweight (lb)', bwSeries(), 'gold','circle');
   html += chartCard('Run pace (min/mi)', paceSeries(['run','long']), 'gold','square', true);
@@ -967,6 +969,15 @@ function renderStats(){
 
   screen.innerHTML=html;
   bindCommon();
+}
+
+/* Funnel card — links out to the /start/ page (email + Field Guide). Hidden if nothing is configured. */
+function fieldGuideCard(){
+  const C=window.RECON_CONFIG||{};
+  if(!C.KIT_FORM_ID && !C.FIELD_GUIDE_LEMON_URL && !C.FIELD_GUIDE_SHOPIFY_URL) return '';
+  return `<div class="card"><div class="label">Field Guide + Briefings</div>
+    <div class="tiny muted" style="margin:6px 0 2px">The full program as a printable PDF, plus six email briefings that cover what the app doesn't — scaling, missed days, what comes after Week 6.</div>
+    <a class="cta cond" style="text-align:center;text-decoration:none;line-height:54px" href="./start/" target="_blank" rel="noopener">GET THE FIELD GUIDE ›</a></div>`;
 }
 
 function chartCard(title, series, color, marker, isTime){

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>OPERATOR RECON — Six Weeks. Four Tests. One Number That Matters.</title>
+<meta name="description" content="A six-week reconditioning program for men who used to be in shape. Free offline tracker app. Baseline in Week 1, retest in Week 6.">
+<meta name="theme-color" content="#101214">
+<meta property="og:title" content="OPERATOR RECON">
+<meta property="og:description" content="Six weeks. Baseline in Week 1, retest in Week 6. Free offline tracker app.">
+<meta property="og:image" content="../brand/operator-recon-icon-512.png">
+<link rel="icon" type="image/png" href="../icon-48.png">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<style>
+:root{
+  --bg:#101214; --card:#1A1D21; --card2:#15181B; --border:#2A2E33;
+  --gold:#C9A227; --blue:#5B8DB8; --text:#E7E9EC; --muted:#8A9099;
+}
+*{box-sizing:border-box;}
+html,body{margin:0;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.5;}
+a{color:var(--blue);}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px;}
+.cond{font-weight:800;text-transform:uppercase;letter-spacing:0.06em;}
+.label{font-size:12px;letter-spacing:0.14em;color:var(--muted);text-transform:uppercase;font-weight:700;}
+header{padding:40px 0 8px;text-align:center;}
+header img{width:96px;height:96px;}
+h1{font-size:34px;line-height:1.05;margin:14px 0 10px;}
+h2{font-size:20px;margin:0 0 10px;}
+.lede{color:var(--muted);font-size:18px;margin:0 auto;max-width:520px;}
+section{padding:22px 0;}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;margin-bottom:12px;}
+.btn{display:block;width:100%;min-height:54px;border-radius:13px;font-size:16px;font-weight:800;
+  letter-spacing:0.08em;text-transform:uppercase;text-align:center;text-decoration:none;
+  padding:16px 12px;border:none;cursor:pointer;font-family:inherit;margin-top:10px;}
+.btn.gold{background:var(--gold);color:#101214;}
+.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--border);}
+.btn.blue{background:var(--blue);color:#101214;}
+ul.plain{list-style:none;padding:0;margin:0;}
+ul.plain li{padding:9px 0;border-bottom:1px solid var(--border);display:flex;gap:10px;}
+ul.plain li:last-child{border-bottom:none;}
+ul.plain .k{flex:0 0 auto;font-weight:800;color:var(--gold);min-width:74px;}
+.tests{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
+.tests div{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:12px;font-weight:700;font-size:15px;}
+.tests span{display:block;font-size:12px;color:var(--muted);font-weight:400;}
+form .row{display:flex;flex-direction:column;gap:8px;}
+input[type=email],input[type=text]{width:100%;background:var(--card2);border:1px solid var(--border);border-radius:11px;
+  color:var(--text);font-size:17px;padding:14px;font-family:inherit;}
+input:focus{outline:2px solid var(--gold);outline-offset:1px;}
+.note{font-size:13px;color:var(--muted);margin-top:8px;}
+.ok{border-color:var(--gold);}
+.ok .label{color:var(--gold);}
+footer{padding:28px 0 48px;color:var(--muted);font-size:13px;text-align:center;}
+.hidden{display:none !important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="../brand/operator-recon-mark-transparent.svg" alt="Operator Recon six-week ring mark">
+  <div class="label" style="margin-top:12px">Operator Recon · An Ashes to Alpha program</div>
+  <h1 class="cond">You used to be in shape.<br>Six weeks to find out what's left.</h1>
+  <p class="lede">A six-week reconditioning program for men who carry weight for a living — or used to. Test in Week 1. Train. Retest in Week 6. The numbers settle the argument.</p>
+  <a class="btn gold" href="../index.html">Open the free app</a>
+  <a class="btn ghost hidden" href="#join" id="jumpJoin">Get the Week 1 briefing by email</a>
+</header>
+
+<!-- Confirmation banner after Kit redirect (?joined=1) -->
+<section class="hidden" id="joinedBanner">
+  <div class="card ok">
+    <div class="label">✓ You're on the list</div>
+    <p style="margin:6px 0 0">Check your inbox for the Week 1 briefing. If it's not there in ten minutes, check spam and drag it to your inbox — the next five emails are the program's operating instructions.</p>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2 class="cond">The four tests</h2>
+    <p class="note" style="margin-top:0">Week 1 Monday is your baseline. Week 6 Friday is your retest. Same four events, same order, full rest between.</p>
+    <div class="tests">
+      <div>Push-ups<span>2 minutes, max</span></div>
+      <div>Sit-ups<span>2 minutes, max</span></div>
+      <div>Pull-ups<span>One strict set, max</span></div>
+      <div>2-mile run<span>For time</span></div>
+    </div>
+    <p class="note">Optional capstone, Week 6 Saturday: 5-mile ruck at 45 lb. Sub-75 is operational. Sub-60, you're back.</p>
+  </div>
+
+  <div class="card">
+    <h2 class="cond">Three phases</h2>
+    <ul class="plain">
+      <li><span class="k">WK 1–2</span><span><b>Rebuild.</b> Baseline test, easy volume, get the joints and lungs back on speaking terms.</span></li>
+      <li><span class="k">WK 3–4</span><span><b>Build.</b> Intervals, heavier strength, longer rucks. This is where it starts to cost something.</span></li>
+      <li><span class="k">WK 5–6</span><span><b>Peak.</b> Sharpen, taper, retest. Then you know.</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 class="cond">What the app does</h2>
+    <ul class="plain">
+      <li><span class="k">TODAY</span><span>Today's session, every set, every rep. Check it off and move.</span></li>
+      <li><span class="k">LOG</span><span>Run, ruck and swim pace. Strength numbers. Bodyweight, protein, water, sleep.</span></li>
+      <li><span class="k">STATS</span><span>Baseline next to retest, side by side. Compliance and streak.</span></li>
+      <li><span class="k">OFFLINE</span><span>Works with no signal. No account. Your data stays on your phone.</span></li>
+    </ul>
+    <p class="note">iPhone: open in Safari → Share → Add to Home Screen. Android: Chrome menu → Install app.</p>
+    <a class="btn gold" href="../index.html">Start Week 1</a>
+  </div>
+</section>
+
+<!-- Email capture — Kit. Hidden until KIT_FORM_ID is set in config.js -->
+<section id="join" class="hidden">
+  <div class="card">
+    <div class="label">Free · Email</div>
+    <h2 class="cond" style="margin-top:6px">The Week 1 briefing</h2>
+    <p style="margin:0 0 4px">The app tells you what to do. The briefings tell you why, and what to do when the plan meets your actual life — the bad knee, the night shift, the week you miss three days.</p>
+    <p class="note" style="margin-top:4px">Six short emails over the six weeks. Unsubscribe any time.</p>
+    <form id="kitForm" method="post" action="">
+      <div class="row">
+        <label class="label" for="fname">First name</label>
+        <input type="text" id="fname" name="fields[first_name]" autocomplete="given-name">
+        <label class="label" for="email">Email</label>
+        <input type="email" id="email" name="email_address" required autocomplete="email" placeholder="you@example.com">
+      </div>
+      <button class="btn blue" type="submit">Send me the briefing</button>
+    </form>
+  </div>
+</section>
+
+<!-- Field Guide — hidden until a checkout URL is set -->
+<section id="guide" class="hidden">
+  <div class="card">
+    <div class="label">Paid · PDF</div>
+    <h2 class="cond" style="margin-top:6px">The Operator Recon Field Guide</h2>
+    <p style="margin:0">The full program in one document you can print, mark up and leave in the truck.</p>
+    <a class="btn gold hidden" id="buyLemon" href="#" rel="noopener">Get the Field Guide</a>
+    <a class="btn ghost hidden" id="buyShopify" href="#" rel="noopener">Buy on the Ashes to Alpha store</a>
+    <p class="note">The app stays free either way.</p>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <div class="label">Who built this</div>
+    <p style="margin:8px 0 0">CHRIS G. STEWART is an Army veteran, federal agent, K-9 handler, and founder of Ashes to Alpha — built for men who look strong on the outside and are fighting like hell on the inside.</p>
+    <a class="btn ghost hidden" id="substackLink" href="#" rel="noopener">Read the field notes on Substack</a>
+  </div>
+</section>
+
+<footer>
+  <p>This is a demanding physical program. Get cleared by a physician before you start, especially if you're coming back from injury, illness or a long layoff. Scale anything that hurts in the wrong way.</p>
+  <p>© Ashes to Alpha · Chris G. Stewart</p>
+</footer>
+
+</div>
+<script src="../config.js"></script>
+<script>
+(function(){
+  var C = window.RECON_CONFIG || {};
+  function show(id){ var el=document.getElementById(id); if(el) el.classList.remove('hidden'); }
+
+  if (C.KIT_FORM_ID) {
+    document.getElementById('kitForm').action =
+      'https://app.kit.com/forms/' + encodeURIComponent(C.KIT_FORM_ID) + '/subscriptions';
+    show('join'); show('jumpJoin');
+  }
+
+  var label = 'Get the Field Guide' + (C.FIELD_GUIDE_PRICE ? ' — ' + C.FIELD_GUIDE_PRICE : '');
+  if (C.FIELD_GUIDE_LEMON_URL) {
+    var a = document.getElementById('buyLemon'); a.href = C.FIELD_GUIDE_LEMON_URL; a.textContent = label; show('buyLemon');
+  }
+  if (C.FIELD_GUIDE_SHOPIFY_URL) {
+    var b = document.getElementById('buyShopify'); b.href = C.FIELD_GUIDE_SHOPIFY_URL;
+    if (!C.FIELD_GUIDE_LEMON_URL) { b.className = 'btn gold'; b.textContent = label; }
+    show('buyShopify');
+  }
+  if (C.FIELD_GUIDE_LEMON_URL || C.FIELD_GUIDE_SHOPIFY_URL) show('guide');
+
+  if (C.SUBSTACK_URL) { var s=document.getElementById('substackLink'); s.href=C.SUBSTACK_URL; show('substackLink'); }
+
+  if (/[?&]joined=1/.test(location.search)) show('joinedBanner');
+})();
+</script>
+</body>
+</html>

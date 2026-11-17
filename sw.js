@@ -1,9 +1,10 @@
 // OPERATOR RECON — service worker. Offline-first cache.
-const CACHE = 'operator-recon-v2';
+const CACHE = 'operator-recon-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
+  './config.js',
   './icon-48.png',
   './icon-180.png',
   './icon-192.png',
@@ -25,6 +26,17 @@ self.addEventListener('activate', (e) => {
 // Cache-first; fall back to network and cache the response. App is fully offline once installed.
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
+  // config.js is network-first so link changes reach installed apps without a cache bump.
+  if (new URL(e.request.url).pathname.endsWith('/config.js')) {
+    e.respondWith(
+      fetch(e.request).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put(e.request, copy)).catch(() => {});
+        return res;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
   e.respondWith(
     caches.match(e.request).then((cached) => {
       if (cached) return cached;
