@@ -468,6 +468,7 @@ const DEFAULTS = {
              proteinPerLb:0.9, waterPerLb:0.85, calorieDeficit:400 },
   days:{},     // 'w-d' -> {completed,skipped,modified, blocks:{idx:{...}}}
   daily:{},    // 'YYYY-MM-DD' -> {protein,calories,water,sleep,bw}
+  cycles:[],   // archived cycles: {startDate, archived, tests:{metric:[baseline,retest]}, capstone, days, daily}
 };
 let state = load();
 
@@ -477,7 +478,7 @@ function load(){
     if(!raw) return structuredClone(DEFAULTS);
     const s = JSON.parse(raw);
     s.settings = Object.assign({}, DEFAULTS.settings, s.settings||{});
-    s.days = s.days||{}; s.daily = s.daily||{};
+    s.days = s.days||{}; s.daily = s.daily||{}; s.cycles = Array.isArray(s.cycles)?s.cycles:[];
     return s;
   }catch(e){ return structuredClone(DEFAULTS); }
 }
@@ -887,6 +888,33 @@ function logSummary(day,rec){
 function shortName(n){ return n.replace(/^Max /,'').replace(/ for time$/,'').split(' ').slice(0,2).join(' '); }
 
 /* ---------- STATS ---------- */
+const TEST_METRICS=['pushups','situps','pullups','run2'];
+function cycleSummary(){
+  const tests={};
+  TEST_METRICS.forEach(m=>{ tests[m]=[getTestVal(0,m), getTestVal(5*7+4,m)]; });
+  return {startDate:state.settings.startDate, archived:isoToday(), tests, capstone:getTestVal(5*7+5,'capstone'),
+          days:state.days, daily:state.daily};
+}
+function nextMondayISO(){
+  const d=new Date(); const dow=(d.getDay()+6)%7; // Mon=0
+  d.setDate(d.getDate()+(dow===0?0:7-dow)); return isoOf(d);
+}
+/* Archive the current cycle (all logs kept) and start a fresh 42 days. */
+function startNewCycle(){
+  if(!confirm('Start a new 6-week cycle?\n\nYour current cycle is archived — logs, baseline and retest are kept and shown under STATS → Previous cycles. The new cycle starts next Monday (change it in Settings).\n\nTip: Export JSON first for an off-phone backup.')) return;
+  state.cycles.push(cycleSummary());
+  state.days={}; state.daily={}; state.settings.startDate=nextMondayISO();
+  save(); toast('New cycle started — previous cycle archived'); view='today'; render();
+}
+function previousCyclesCard(events){
+  if(!state.cycles||!state.cycles.length) return '';
+  const fmt=(ev,v)=> v==null?'—':(ev.type==='time'?fmtMMSS(v):v);
+  return `<div class="card"><div class="label">Previous cycles</div>`+
+    state.cycles.slice().reverse().map((c,i)=>`<div class="tiny muted" style="margin:10px 0 4px">Cycle ${state.cycles.length-i} · started ${c.startDate}</div>`+
+      events.map(ev=>{ const t=(c.tests||{})[ev.m]||[null,null];
+        return `<div class="band"><span>${ev.label}</span><span class="b">${fmt(ev,t[0])} → ${fmt(ev,t[1])}</span></div>`; }).join('')
+    ).join('')+`<div class="tiny muted" style="margin-top:8px">Baseline → retest, as logged. Use last cycle's retest as the number to beat.</div></div>`;
+}
 function getTestVal(off, metric){
   const {w,d}=offToWD(off);
   const day=PROGRAM[w].days[d]; const rec=state.days[dayKey(w,d)];
@@ -939,6 +967,7 @@ function renderStats(){
   }).join('');
   if(!anyRetest) html += `<div class="tiny muted" style="margin-top:8px">Retest values appear here after you log Week 6 Friday.</div>`;
   html += `</div>`;
+  html += previousCyclesCard(events);
 
   // Capstone
   const cap=getTestVal(5*7+5,'capstone');
@@ -1204,7 +1233,9 @@ function renderSettings(){
         <button class="cta ghost" id="importBtn">Import JSON</button>
       </div>
       <input type="file" id="importFile" accept="application/json" style="display:none">
-      <button class="cta danger" style="margin-top:10px" id="resetBtn">Reset program</button>
+      <button class="cta" style="margin-top:10px" id="newCycleBtn">Start new cycle (keeps results)</button>
+      <button class="cta danger" style="margin-top:10px" id="resetBtn">Erase all logs</button>
+      <div class="tiny muted" style="margin-top:6px">Start new cycle archives this run's baseline and retest. Erase deletes everything — export first.</div>
     </div>
     <div class="tiny muted" style="text-align:center;margin-top:8px">OPERATOR RECON · offline · v1</div>`;
   bindCommon();
@@ -1221,9 +1252,10 @@ function renderSettings(){
   document.getElementById('exportBtn').onclick=exportData;
   document.getElementById('importBtn').onclick=()=>document.getElementById('importFile').click();
   document.getElementById('importFile').onchange=importData;
+  document.getElementById('newCycleBtn').onclick=startNewCycle;
   document.getElementById('resetBtn').onclick=()=>{
-    if(confirm('Reset ALL progress and logs? Settings are kept. This cannot be undone.')){
-      state.days={}; state.daily={}; save(); toast('Program reset'); view='today'; render();
+    if(confirm('ERASE all logs, including baseline, retest and previous cycles? Settings are kept. This cannot be undone.\n\nTo keep your results and go again, cancel and use "Start new cycle" instead.')){
+      state.days={}; state.daily={}; state.cycles=[]; save(); toast('All logs erased'); view='today'; render();
     }
   };
 }

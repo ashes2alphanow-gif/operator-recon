@@ -1,5 +1,5 @@
 // OPERATOR RECON — service worker. Offline-first cache.
-const CACHE = 'operator-recon-v3';
+const CACHE = 'operator-recon-v4';
 const ASSETS = [
   './',
   './index.html',
